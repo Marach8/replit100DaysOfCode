@@ -1,0 +1,10 @@
+print('\033[32mList Generator\033[0m')
+print()
+a = int(input('Enter the starting number: '))
+print()
+b = int(input('Enter the ending number: '))
+print()
+c = int(input('what is the increment?: '))
+print()
+for i in range(a, b, c):
+  print(i)
